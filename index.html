@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-section">
+        <div class="header">
+          <div class="logo"><a href="#">T</a></div>
+          <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            <a class="buton" href="#">+994-51-785-79-82</a>
+          </div>
+        </div>
+        <div class="image-text">
+          <div class="bg-image">
+            <img src="tyler-lastovich-7FDIUNvKkIU-unsplash.jpg" alt="" />
+          </div>
+          <div class="text-sec">
+            <div class="big-text">
+              <p>Creative</p>
+              <p>Designer & Developer</p>
+            </div>
+            <div class="small-text">
+              <p>
+                Transforming ideas into stunning digital experiences. Let’s
+                build something amazing together.
+              </p>
+            </div>
+            <button>Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="my-service">
+        <div class="text"><span>My Service</span></div>
+        <div class="image-box-section">
+          <div class="image-box">
+            <img src="image.png" alt="" />
+            <div class="image-text">
+              <h3>Web Design</h3>
+              <span
+                >Focus on how you can help and benefit your user. Use simple
+                words to avoid confusion.</span
+              >
+            </div>
+          </div>
+          <div class="image-box">
+            <img src="image.png" alt="" />
+            <div class="image-text">
+              <h3>Graphic Design</h3>
+              <span
+                >Focus on how you can help and benefit your user. Use simple
+                words to avoid confusion.</span
+              >
+            </div>
+          </div>
+          <div class="image-box">
+            <img src="image.png" alt="" />
+            <div class="image-text">
+              <h3>Content Creation</h3>
+              <span
+                >Focus on how you can help and benefit your user. Use simple
+                words to avoid confusion.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="intelligent-words">
+        <div class="icons">
+          <i class="fa-solid fa-quote-left" style="color: #eee"></i>
+        </div>
+        <div class="sentences">
+          <span
+            >"You can showcase a client review here. Make it nice and short,
+            then use this button to send them to your reviews or services
+            page."</span
+          >
+        </div>
+        <div class="person">
+          <img src="Screenshot 2024-09-08 220342.png" alt="" />
+          <div class="name"><span>Write By Xezer</span></div>
+        </div>
+      </div>
+      <div class="about-us">
+        <div class="about-us-text-section">
+          <span class="about-us-mini">About Me</span>
+          <h2>My name is Xezer and I am the web Developer.</h2>
+          <span
+            >I gave it my all to make this the best design to start from. I
+            named it Hope, in honor of my client who
+            <b>inspired me to make it</b> – her middle name is Hope.</span
+          >
+          <span
+            >For the first section at the top of the page, I recommend writing
+            something that will pique the interest of your target
+            <b>audience</b>. Make them curious to read more!
+          </span>
+          <span
+            >These middle sections are the perfect place to introduce yourself,
+            and to perhaps start introducing your services.
+          </span>
+          <span>The last section below is great for a call to action. </span>
+          <button>More Information</button>
+        </div>
+        <div class="about-us-image-section">
+          <img src="Screenshot 2024-09-08 220342.png" alt="" />
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-first">
+          <div class="footer-header"><h2>Navigation</h2></div>
+          <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="footer-second">
+          <div class="footer-header"><h2>My Sosial</h2></div>
+          <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i> Facebook </a>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 - Hope. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis();
+
+      lenis.on("scroll", (e) => {
+        console.log(e);
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>

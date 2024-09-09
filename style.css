@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #eee;
+}
+.container {
+  width: 100%;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+}
+.header {
+  width: 80%;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding-top: 40px;
+}
+.logo {
+  font-size: 64px;
+}
+.logo a {
+  color: #eee;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.nav {
+  display: flex;
+  gap: 40px;
+  height: 100%;
+  align-items: center;
+}
+.nav a {
+  color: #eee;
+  font-size: 14px;
+  display: inline;
+}
+.nav a:hover {
+  color: #fff;
+}
+.buton {
+  font-size: 16px !important;
+}
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-sec {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.big-text {
+  font-size: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.big-text p {
+  color: #eee;
+}
+.big-text p:first-child {
+  font-weight: 600;
+}
+.small-text {
+  width: 40%;
+  text-align: center;
+  margin: 96px;
+}
+.small-text p {
+  color: #eee;
+}
+
+.text-sec button {
+  color: #100c0a;
+  background-color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 14px;
+  font-size: 26px;
+  font-weight: 500;
+  cursor: pointer;
+
+  box-shadow: 0 3px 30px rgba(255, 255, 255, 0.5);
+  transition: box-shadow 200ms linear;
+}
+
+.text-sec button:hover {
+  box-shadow: 0 3px 30px rgba(255, 255, 255, 1);
+}
+.my-service {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.text {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text span {
+  font-size: 44px;
+  border-bottom: 3px solid #a3a2a2;
+  padding-bottom: 20px;
+}
+.image-box-section {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 633px;
+  padding-inline: 13vw;
+  gap: 30px;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+.image-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  min-width: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.image-text h3 {
+  color: #343a40;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.image-text span {
+  color: #868e96;
+}
+.intelligent-words {
+  width: 100%;
+  height: fit-content;
+  margin-top: 100px;
+  padding-block: 60px;
+  background-color: #282423;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.icons {
+  font-size: 120px;
+}
+.sentences {
+  width: 60vw;
+  text-align: center;
+}
+.sentences span {
+  font-size: 38px;
+  color: #eee;
+  font-weight: 300;
+  line-height: 44px;
+}
+.person {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.person img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.238);
+}
+.name span {
+  color: #eee;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+}
+.about-us {
+  display: flex;
+  gap: 80px;
+  padding-inline: 130px;
+  padding-block: 80px;
+  height: 90vh;
+  width: 100%;
+}
+.about-us-text-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-us-text-section h2 {
+  color: #100c0a;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+}
+.about-us-mini {
+  display: block;
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+  color: #282423 !important;
+}
+.about-us-image-section {
+  width: 100%;
+  height: 100%;
+}
+.about-us-text-section span {
+  color: #343a40;
+  font-size: 17px;
+  display: block;
+  margin-bottom: 12px;
+}
+.about-us-text-section button {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #100c0a;
+  cursor: pointer;
+  transition: background-color 200ms linear;
+  font-weight: 500;
+  font-size: 18px;
+}
+.about-us-text-section button:hover {
+  background-color: #100c0a;
+  color: #eee;
+}
+.about-us-image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  letter-spacing: -0.2px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.44);
+}
+
+.footer {
+  background-color: #282423;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-inline: 80px;
+  grid-template-rows: 300px;
+  padding-top: 70px;
+}
+.footer-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-header {
+  color: #eee;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  margin-bottom: 30px;
+}
+.footer-header h2 {
+  font-weight: 400;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-links a {
+  color: #eee;
+  font-size: 18px;
+}
+.footer-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-header {
+  color: #eee;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  margin-bottom: 30px;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.social-media a {
+  color: #eee;
+  font-size: 18px;
+  width: fit-content;
+  height: fit-content;
+}
+.footer a:hover {
+  color: #fff;
+  filter: drop-shadow(0 0 4px #fff);
+}
+.copyright {
+  height: 100%;
+  color: #eee;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  display: flex;
+  align-items: center;
+}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
